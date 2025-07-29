@@ -215,7 +215,7 @@ class ChatInterface {
 
     // 添加欢迎消息
     addWelcomeMessage() {
-        this.addMessage('assistant', '¡Hola! Soy Bella, tu compañera de IA. ¡Un placer conocerte! ¿Hay algo que me quieras comentar?', true);
+        this.addMessage('assistant', 'Hello! I\'m Ani, your AI partner. Is there anything you\'d like to tell me?', true);
     }
 
     // 切换聊天窗口显示/隐藏
