@@ -183,9 +183,9 @@ document.addEventListener('DOMContentLoaded', async function() {
         chatTestBtn.addEventListener('click', () => {
             if (chatInterface) {
                 const testMessages = [
-                    '你好！我是贝拉，很高兴见到你！',
-                    '聊天界面工作正常，所有功能都已就绪。',
-                    '这是一条测试消息，用来验证界面功能。'
+                    'Hi! I\'m Ani, nice to meet you!',
+                    'La interfaz de chat funciona bien.，All features are ready.',
+                    'This is a test message used to verify the interface functionality.'
                 ];
                 const randomMessage = testMessages[Math.floor(Math.random() * testMessages.length)];
                 chatInterface.addMessage('assistant', randomMessage);
