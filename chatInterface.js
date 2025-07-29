@@ -37,15 +37,15 @@ class ChatInterface {
                 <div class="bella-chat-title">
                     <div class="bella-avatar">💝</div>
                     <div class="bella-title-text">
-                        <h3>贝拉</h3>
-                        <span class="bella-status">在线</span>
+                        <h3>Ani</h3>
+                        <span class="bella-status">En Linea</span>
                     </div>
                 </div>
                 <div class="bella-chat-controls">
-                    <button class="bella-settings-btn" title="设置">
+                    <button class="bella-settings-btn" title="set up">
                         <i class="fas fa-cog"></i>
                     </button>
-                    <button class="bella-minimize-btn" title="最小化">
+                    <button class="bella-minimize-btn" title="Minimize">
                         <i class="fas fa-minus"></i>
                     </button>
                 </div>
@@ -53,13 +53,13 @@ class ChatInterface {
             <div class="bella-chat-messages"></div>
             <div class="bella-chat-input-container">
                 <div class="bella-input-wrapper">
-                    <input type="text" class="bella-message-input" placeholder="和贝拉聊聊天..." maxlength="500">
-                    <button class="bella-send-btn" title="发送">
+                    <input type="text" class="bella-message-input" placeholder="Chatting with Ani..." maxlength="500">
+                    <button class="bella-send-btn" title="Send">
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </div>
                 <div class="bella-input-hint">
-                    按 Enter 发送，Shift + Enter 换行
+                    Press Enter to send, Shift + Enter to break the line
                 </div>
             </div>
         `;
@@ -215,7 +215,7 @@ class ChatInterface {
 
     // 添加欢迎消息
     addWelcomeMessage() {
-        this.addMessage('assistant', '你好！我是贝拉，你的AI伙伴。很高兴见到你！有什么想聊的吗？', true);
+        this.addMessage('assistant', '¡Hola! Soy Bella, tu compañera de IA. ¡Un placer conocerte! ¿Hay algo que me quieras comentar?', true);
     }
 
     // 切换聊天窗口显示/隐藏
