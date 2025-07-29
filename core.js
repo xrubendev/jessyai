@@ -105,7 +105,7 @@ class BellaAI {
     // 使用本地模型进行思考
     async thinkWithLocalModel(prompt) {
         if (!this.llm) {
-            return "我还在学习如何思考，请稍等片刻...";
+            return "I'm still learning to think, so please be patient with me for a moment...";
         }
         
         const bellaPrompt = this.enhancePromptForMode(prompt, true);
