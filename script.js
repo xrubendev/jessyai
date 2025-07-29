@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const transcriptText = document.getElementById('transcript');
 
         if (isListening) {
-            transcriptText.textContent = '聆听中...'; // 立刻显示提示
+            transcriptText.textContent = 'listening talk to me...'; // 立刻显示提示
             transcriptContainer.classList.add('visible');
             recognition.start();
         } else {
